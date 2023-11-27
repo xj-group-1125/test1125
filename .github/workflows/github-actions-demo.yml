@@ -9,6 +9,7 @@ on:
       - br001
      # - 'releases/**'
   merge_group:
+     types: [checks_requested]
   
 jobs:
   job_1:
